@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/album_card"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="1.5dp"
+       >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+           <RelativeLayout
+                 android:id="@+id/header_album_card"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 >
+
+                 <ImageView
+                     android:id="@+id/iv_image"
+                     android:layout_width="wrap_content"
+                     android:layout_height="30dp"
+                     android:layout_centerHorizontal="true"
+                     android:src="@drawable/audio_icon"
+                     android:layout_margin="10dp"
+                     app:tint="@color/images"
+                     />
+
+
+                <ImageView
+                   android:id="@+id/isChecked"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:layout_centerInParent="true"
+                   android:src="@drawable/ic_checked"
+                   android:visibility="visible"
+                   app:tint="@color/dark_blue" />
+
+               <TextView
+                   android:id="@+id/tvDate"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_below="@+id/iv_image"
+                   android:layout_centerHorizontal="true"
+                   android:layout_marginStart="5dp"
+                   android:layout_marginEnd="5dp"
+                   android:layout_marginBottom="6dp"
+                   android:text="ddf"
+                   android:textColor="@color/dark_blue"
+                   android:textSize="9sp" />
+             </RelativeLayout>
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+

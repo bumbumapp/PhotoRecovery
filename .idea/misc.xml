@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudioProjects/jhghujg/codecanyon-36105689-deleted-photos-recovery-data-recovery-deleted-photos-videos-audios-recovery-android-11-suppo/ProjectV1/PhotoRecovery_androidcode/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1984375" />
+        <entry key="..\:/AndroidStudioProjects/jhghujg/codecanyon-36105689-deleted-photos-recovery-data-recovery-deleted-photos-videos-audios-recovery-android-11-suppo/ProjectV1/PhotoRecovery_androidcode/app/src/main/res/drawable/ic_arrow.xml" value="0.1984375" />
+        <entry key="..\:/AndroidStudioProjects/jhghujg/codecanyon-36105689-deleted-photos-recovery-data-recovery-deleted-photos-videos-audios-recovery-android-11-suppo/ProjectV1/PhotoRecovery_androidcode/app/src/main/res/drawable/ic_back.xml" value="0.1984375" />
+        <entry key="..\:/AndroidStudioProjects/jhghujg/codecanyon-36105689-deleted-photos-recovery-data-recovery-deleted-photos-videos-audios-recovery-android-11-suppo/ProjectV1/PhotoRecovery_androidcode/app/src/main/res/drawable/ic_error.xml" value="0.1984375" />
+        <entry key="..\:/AndroidStudioProjects/jhghujg/codecanyon-36105689-deleted-photos-recovery-data-recovery-deleted-photos-videos-audios-recovery-android-11-suppo/ProjectV1/PhotoRecovery_androidcode/app/src/main/res/drawable/ic_info.xml" value="0.1984375" />
+        <entry key="..\:/AndroidStudioProjects/jhghujg/codecanyon-36105689-deleted-photos-recovery-data-recovery-deleted-photos-videos-audios-recovery-android-11-suppo/ProjectV1/PhotoRecovery_androidcode/app/src/main/res/drawable/ic_more.xml" value="0.1984375" />
+        <entry key="..\:/AndroidStudioProjects/jhghujg/codecanyon-36105689-deleted-photos-recovery-data-recovery-deleted-photos-videos-audios-recovery-android-11-suppo/ProjectV1/PhotoRecovery_androidcode/app/src/main/res/drawable/rectangle.xml" value="0.1984375" />
+        <entry key="..\:/AndroidStudioProjects/jhghujg/codecanyon-36105689-deleted-photos-recovery-data-recovery-deleted-photos-videos-audios-recovery-android-11-suppo/ProjectV1/PhotoRecovery_androidcode/app/src/main/res/drawable/ripple.xml" value="0.1984375" />
+        <entry key="..\:/AndroidStudioProjects/jhghujg/codecanyon-36105689-deleted-photos-recovery-data-recovery-deleted-photos-videos-audios-recovery-android-11-suppo/ProjectV1/PhotoRecovery_androidcode/app/src/main/res/layout/activity_album.xml" value="0.1859375" />
+        <entry key="..\:/AndroidStudioProjects/jhghujg/codecanyon-36105689-deleted-photos-recovery-data-recovery-deleted-photos-videos-audios-recovery-android-11-suppo/ProjectV1/PhotoRecovery_androidcode/app/src/main/res/layout/activity_audio.xml" value="0.18229166666666666" />
+        <entry key="..\:/AndroidStudioProjects/jhghujg/codecanyon-36105689-deleted-photos-recovery-data-recovery-deleted-photos-videos-audios-recovery-android-11-suppo/ProjectV1/PhotoRecovery_androidcode/app/src/main/res/layout/activity_audio2.xml" value="0.18229166666666666" />
+        <entry key="..\:/AndroidStudioProjects/jhghujg/codecanyon-36105689-deleted-photos-recovery-data-recovery-deleted-photos-videos-audios-recovery-android-11-suppo/ProjectV1/PhotoRecovery_androidcode/app/src/main/res/layout/activity_main.xml" value="0.18229166666666666" />
+        <entry key="..\:/AndroidStudioProjects/jhghujg/codecanyon-36105689-deleted-photos-recovery-data-recovery-deleted-photos-videos-audios-recovery-android-11-suppo/ProjectV1/PhotoRecovery_androidcode/app/src/main/res/layout/activity_other.xml" value="0.18229166666666666" />
+        <entry key="..\:/AndroidStudioProjects/jhghujg/codecanyon-36105689-deleted-photos-recovery-data-recovery-deleted-photos-videos-audios-recovery-android-11-suppo/ProjectV1/PhotoRecovery_androidcode/app/src/main/res/layout/activity_other_album.xml" value="0.18229166666666666" />
+        <entry key="..\:/AndroidStudioProjects/jhghujg/codecanyon-36105689-deleted-photos-recovery-data-recovery-deleted-photos-videos-audios-recovery-android-11-suppo/ProjectV1/PhotoRecovery_androidcode/app/src/main/res/layout/card_album_audio.xml" value="0.18229166666666666" />
+        <entry key="..\:/AndroidStudioProjects/jhghujg/codecanyon-36105689-deleted-photos-recovery-data-recovery-deleted-photos-videos-audios-recovery-android-11-suppo/ProjectV1/PhotoRecovery_androidcode/app/src/main/res/layout/card_album_new.xml" value="0.18229166666666666" />
+        <entry key="..\:/AndroidStudioProjects/jhghujg/codecanyon-36105689-deleted-photos-recovery-data-recovery-deleted-photos-videos-audios-recovery-android-11-suppo/ProjectV1/PhotoRecovery_androidcode/app/src/main/res/layout/card_audio.xml" value="0.18229166666666666" />
+        <entry key="..\:/AndroidStudioProjects/jhghujg/codecanyon-36105689-deleted-photos-recovery-data-recovery-deleted-photos-videos-audios-recovery-android-11-suppo/ProjectV1/PhotoRecovery_androidcode/app/src/main/res/layout/card_photo.xml" value="0.18229166666666666" />
+        <entry key="..\:/AndroidStudioProjects/jhghujg/codecanyon-36105689-deleted-photos-recovery-data-recovery-deleted-photos-videos-audios-recovery-android-11-suppo/ProjectV1/PhotoRecovery_androidcode/app/src/main/res/layout/item_image.xml" value="0.18229166666666666" />
+        <entry key="..\:/AndroidStudioProjects/jhghujg/codecanyon-36105689-deleted-photos-recovery-data-recovery-deleted-photos-videos-audios-recovery-android-11-suppo/ProjectV1/PhotoRecovery_androidcode/app/src/main/res/layout/layout_loading_dialog.xml" value="0.18229166666666666" />
+        <entry key="..\:/Users/Durkhan/Downloads/ProjectV1/ProjectV1/PhotoRecovery_androidcode/app/src/main/res/drawable/app_logo_background.xml" value="0.23796296296296296" />
+        <entry key="..\:/Users/Durkhan/Downloads/ProjectV1/ProjectV1/PhotoRecovery_androidcode/app/src/main/res/drawable/back.xml" value="0.2537037037037037" />
+        <entry key="..\:/Users/Durkhan/Downloads/ProjectV1/ProjectV1/PhotoRecovery_androidcode/app/src/main/res/drawable/cover.xml" value="0.2537037037037037" />
+        <entry key="..\:/Users/Durkhan/Downloads/ProjectV1/ProjectV1/PhotoRecovery_androidcode/app/src/main/res/drawable/gradient.xml" value="0.15572916666666667" />
+        <entry key="..\:/Users/Durkhan/Downloads/ProjectV1/ProjectV1/PhotoRecovery_androidcode/app/src/main/res/drawable/ic_checked.xml" value="0.2537037037037037" />
+        <entry key="..\:/Users/Durkhan/Downloads/ProjectV1/ProjectV1/PhotoRecovery_androidcode/app/src/main/res/drawable/rectangle.xml" value="0.1935185185185185" />
+        <entry key="..\:/Users/Durkhan/Downloads/ProjectV1/ProjectV1/PhotoRecovery_androidcode/app/src/main/res/drawable/video.xml" value="0.25555555555555554" />
+        <entry key="..\:/Users/Durkhan/Downloads/ProjectV1/ProjectV1/PhotoRecovery_androidcode/app/src/main/res/drawable/videoshower.xml" value="0.2537037037037037" />
+        <entry key="..\:/Users/Durkhan/Downloads/ProjectV1/ProjectV1/PhotoRecovery_androidcode/app/src/main/res/layout/activity_album.xml" value="0.24320652173913043" />
+        <entry key="..\:/Users/Durkhan/Downloads/ProjectV1/ProjectV1/PhotoRecovery_androidcode/app/src/main/res/layout/activity_audio.xml" value="0.13229166666666667" />
+        <entry key="..\:/Users/Durkhan/Downloads/ProjectV1/ProjectV1/PhotoRecovery_androidcode/app/src/main/res/layout/activity_audio2.xml" value="0.2391304347826087" />
+        <entry key="..\:/Users/Durkhan/Downloads/ProjectV1/ProjectV1/PhotoRecovery_androidcode/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Durkhan/Downloads/ProjectV1/ProjectV1/PhotoRecovery_androidcode/app/src/main/res/layout/activity_other.xml" value="0.2391304347826087" />
+        <entry key="..\:/Users/Durkhan/Downloads/ProjectV1/ProjectV1/PhotoRecovery_androidcode/app/src/main/res/layout/activity_other_album.xml" value="0.2391304347826087" />
+        <entry key="..\:/Users/Durkhan/Downloads/ProjectV1/ProjectV1/PhotoRecovery_androidcode/app/src/main/res/layout/activity_photo_view.xml" value="0.13069908814589665" />
+        <entry key="..\:/Users/Durkhan/Downloads/ProjectV1/ProjectV1/PhotoRecovery_androidcode/app/src/main/res/layout/activity_photos.xml" value="0.13229166666666667" />
+        <entry key="..\:/Users/Durkhan/Downloads/ProjectV1/ProjectV1/PhotoRecovery_androidcode/app/src/main/res/layout/activity_restore_result.xml" value="0.13069908814589665" />
+        <entry key="..\:/Users/Durkhan/Downloads/ProjectV1/ProjectV1/PhotoRecovery_androidcode/app/src/main/res/layout/activity_scanning.xml" value="0.14945652173913043" />
+        <entry key="..\:/Users/Durkhan/Downloads/ProjectV1/ProjectV1/PhotoRecovery_androidcode/app/src/main/res/layout/activity_splash.xml" value="0.2164855072463768" />
+        <entry key="..\:/Users/Durkhan/Downloads/ProjectV1/ProjectV1/PhotoRecovery_androidcode/app/src/main/res/layout/activity_video.xml" value="0.13069908814589665" />
+        <entry key="..\:/Users/Durkhan/Downloads/ProjectV1/ProjectV1/PhotoRecovery_androidcode/app/src/main/res/layout/activity_video_album.xml" value="0.13069908814589665" />
+        <entry key="..\:/Users/Durkhan/Downloads/ProjectV1/ProjectV1/PhotoRecovery_androidcode/app/src/main/res/layout/activity_video_view.xml" value="0.13069908814589665" />
+        <entry key="..\:/Users/Durkhan/Downloads/ProjectV1/ProjectV1/PhotoRecovery_androidcode/app/src/main/res/layout/card_album_audio.xml" value="0.2391304347826087" />
+        <entry key="..\:/Users/Durkhan/Downloads/ProjectV1/ProjectV1/PhotoRecovery_androidcode/app/src/main/res/layout/card_album_new.xml" value="0.13069908814589665" />
+        <entry key="..\:/Users/Durkhan/Downloads/ProjectV1/ProjectV1/PhotoRecovery_androidcode/app/src/main/res/layout/card_audio.xml" value="0.2391304347826087" />
+        <entry key="..\:/Users/Durkhan/Downloads/ProjectV1/ProjectV1/PhotoRecovery_androidcode/app/src/main/res/layout/card_photo.xml" value="0.13069908814589665" />
+        <entry key="..\:/Users/Durkhan/Downloads/ProjectV1/ProjectV1/PhotoRecovery_androidcode/app/src/main/res/layout/card_video.xml" value="0.24320652173913043" />
+        <entry key="..\:/Users/Durkhan/Downloads/ProjectV1/ProjectV1/PhotoRecovery_androidcode/app/src/main/res/layout/item_image.xml" value="0.13069908814589665" />
+        <entry key="..\:/Users/Durkhan/Downloads/ProjectV1/ProjectV1/PhotoRecovery_androidcode/app/src/main/res/layout/other_files.xml" value="0.23505434782608695" />
+        <entry key="..\:/Users/Durkhan/Downloads/ProjectV1/ProjectV1/PhotoRecovery_androidcode/app/src/main/res/mipmap-anydpi-v26/app_logo.xml" value="0.23796296296296296" />
+        <entry key="..\:/Users/Durkhan/Downloads/ProjectV1/ProjectV1/PhotoRecovery_androidcode/app/src/main/res/mipmap-anydpi-v26/app_logo_round.xml" value="0.23796296296296296" />
+        <entry key="..\:/Users/Durkhan/Downloads/ProjectV1/ProjectV1/PhotoRecovery_androidcode/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.23796296296296296" />
+        <entry key="..\:/Users/Durkhan/Downloads/ProjectV1/ProjectV1/PhotoRecovery_androidcode/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.23796296296296296" />
+        <entry key="..\:/Users/Durkhan/Play store projects/PhotoRecovery_androidcode/app/src/main/res/layout/activity_photo_view.xml" value="0.1956521739130435" />
+        <entry key="..\:/Users/Durkhan/Play store projects/PhotoRecovery_androidcode/app/src/main/res/layout/card_audio.xml" value="0.26875" />
+        <entry key="..\:/Users/Durkhan/Play store projects/PhotoRecovery_androidcode/app/src/main/res/mipmap-anydpi-v26/app_logo_round.xml" value="0.23148148148148148" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
