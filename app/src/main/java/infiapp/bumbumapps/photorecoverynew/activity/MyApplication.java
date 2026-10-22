@@ -14,6 +14,7 @@ public class MyApplication extends Application {
     public void onCreate() {
         super.onCreate();
         mInstance = this;
+        EdgeToEdgeInsets.install(this);
 
         appOpenManager = new AppOpenManager(MyApplication.this, getString(R.string.admob_open_ads));
 

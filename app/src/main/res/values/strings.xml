@@ -6,9 +6,6 @@
     <string name="restoring_number_format_video">Restored ... %d videos</string>
     <string name="restore_folder_path" translatable="false">RestoredPhotos</string>
 
-    <string name="admob_open_ads"></string>
-    <string name="admob_banner_ads"></string>
-    <string name="admob_interstitial_ads"></string>
     <string name="privacy_policy">www.google.com</string>
 
 </resources>

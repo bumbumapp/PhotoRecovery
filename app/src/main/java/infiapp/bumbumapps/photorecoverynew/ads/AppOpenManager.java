@@ -52,8 +52,9 @@ public class AppOpenManager implements LifecycleObserver, Application.ActivityLi
      * Request an ad
      */
     public void fetchAd() {
-        // Have unused ad, no need to fetch another.
-        if (isAdAvailable()) {
+        // Have unused ad, no need to fetch another. No unit configured / no consent yet: nothing to do.
+        if (isAdAvailable() || mAdmobAdsUnitOpenId == null || mAdmobAdsUnitOpenId.isEmpty()
+                || !AdsConsent.canRequestAds(myApplication)) {
             return;
         }
 
@@ -82,8 +83,7 @@ public class AppOpenManager implements LifecycleObserver, Application.ActivityLi
 
                 };
         AdRequest request = getAdRequest();
-        AppOpenAd.load(
-                myApplication, mAdmobAdsUnitOpenId, request, AppOpenAd.APP_OPEN_AD_ORIENTATION_PORTRAIT, loadCallback);
+        AppOpenAd.load(myApplication, mAdmobAdsUnitOpenId, request, loadCallback);
     }
 
     private boolean wasLoadTimeLessThanNHoursAgo(long numHours) {

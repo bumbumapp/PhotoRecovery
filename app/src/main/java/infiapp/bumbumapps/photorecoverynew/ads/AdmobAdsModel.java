@@ -32,7 +32,24 @@ public class AdmobAdsModel {
         this.context = context;
     }
 
+    /** Ads are only requested with a configured unit ID and after UMP consent allows it. */
+    static boolean canLoad(Context context, int unitRes) {
+        String id = context.getString(unitRes);
+        return id != null && !id.isEmpty() && AdsConsent.canRequestAds(context);
+    }
+
+    /** Minimum time between two interstitials. */
+    static final long MIN_INTERVAL_MS = 60_000L;
+    static long lastShownAt = -MIN_INTERVAL_MS;
+
+    static boolean capAllows(long now, long lastShown) {
+        return now - lastShown >= MIN_INTERVAL_MS;
+    }
+
     public void bannerAds(Context context, ViewGroup frameLayout) {
+        if (frameLayout == null || !canLoad(context, R.string.admob_banner_ads)) {
+            return;
+        }
 
         AdView adView = new AdView(context);
         adView.setAdUnitId(context.getString(R.string.admob_banner_ads));
@@ -90,6 +107,9 @@ public class AdmobAdsModel {
     }
 
     public void interstitialAdLoad(Context context) {
+        if (mInterstitialAd != null || !canLoad(context, R.string.admob_interstitial_ads)) {
+            return;
+        }
 
 
         AdRequest adRequest = new AdRequest.Builder().build();
@@ -112,14 +132,22 @@ public class AdmobAdsModel {
 
     public void interstitialAdShow(Activity context, final GetBackPointer getBackPointer) {
 
-        if (mInterstitialAd != null) {
-            mInterstitialAd.show(context);
+        long now = android.os.SystemClock.elapsedRealtime();
+        if (mInterstitialAd != null && capAllows(now, lastShownAt) && context != null && !context.isFinishing()) {
+            InterstitialAd ad = mInterstitialAd;
+            mInterstitialAd = null;
+            lastShownAt = now;
+            ad.show(context);
 
-            mInterstitialAd.setFullScreenContentCallback(new FullScreenContentCallback() {
+            ad.setFullScreenContentCallback(new FullScreenContentCallback() {
                 @Override
                 public void onAdFailedToShowFullScreenContent(@NonNull AdError adError) {
                     super.onAdFailedToShowFullScreenContent(adError);
                     Log.d(mTag, "onAdFailedToShowFullScreenContent: " + adError.getMessage());
+                    // The pending action used to be lost when the ad could not be shown.
+                    if (getBackPointer != null) {
+                        getBackPointer.returnAction();
+                    }
                 }
 
                 @Override

@@ -23,6 +23,7 @@ import com.google.android.material.snackbar.Snackbar;
 import infiapp.bumbumapps.photorecoverynew.BuildConfig;
 import infiapp.bumbumapps.photorecoverynew.R;
 import infiapp.bumbumapps.photorecoverynew.ads.AdmobAdsModel;
+import infiapp.bumbumapps.photorecoverynew.ads.AdsConsent;
 import infiapp.bumbumapps.photorecoverynew.utills.Utils;
 
 import static android.os.Build.VERSION.SDK_INT;
@@ -52,7 +53,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        new AdmobAdsModel(this).bannerAds(this, findViewById(R.id.adsView));
+        // UMP consent first; ads are only requested once it allows them.
+        AdsConsent.gather(this, () -> {
+            new AdmobAdsModel(this).bannerAds(this, findViewById(R.id.adsView));
+            new AdmobAdsModel(this).interstitialAdLoad(this);
+        });
 
         startBtn = findViewById(R.id.startBtn);
         totalImage = findViewById(R.id.totalImage);
