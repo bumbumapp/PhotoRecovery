@@ -10,7 +10,7 @@ android {
         applicationId "com.bumbumapps.recoverfile"
         minSdk 26
         targetSdk 36
-        versionCode 2
+        versionCode 4
         versionName "1.1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -18,6 +18,22 @@ android {
     buildFeatures {
         buildConfig true
         resValues true
+    }
+
+    // play = Google Play, hms = Huawei AppGallery (Huawei Ads / Petal, no Google Mobile Services).
+    // Release uses the app's Petal slots (override with -PHMS_BANNER_ID=...); debug builds use Huawei's test slots.
+    flavorDimensions = ['store']
+    productFlavors {
+        play {
+            dimension 'store'
+        }
+        hms {
+            dimension 'store'
+            resValue 'string', 'hms_banner_id', (project.findProperty('HMS_BANNER_ID') ?: 'a0o3imh571').toString()
+            resValue 'string', 'hms_interstitial_id', (project.findProperty('HMS_INTERSTITIAL_ID') ?: 'j36eor2c6k').toString()
+            resValue 'string', 'hms_test_banner_id', 'testw6vs28auh3'
+            resValue 'string', 'hms_test_interstitial_id', 'testb4znbuh3n2'
+        }
     }
 
     buildTypes {
@@ -52,6 +68,7 @@ android {
 }
 
 dependencies {
+    hmsImplementation 'com.huawei.hms:ads-lite:13.4.91.301'
     implementation 'androidx.appcompat:appcompat:1.7.1'
     implementation 'com.google.android.material:material:1.13.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.2.1'
@@ -64,7 +81,7 @@ dependencies {
     implementation 'commons-io:commons-io:2.8.0'
     implementation 'com.karumi:dexter:6.2.3'
 
-    implementation 'com.google.android.gms:play-services-ads:25.5.0'
-    implementation 'com.google.android.ump:user-messaging-platform:4.0.0'
+    playImplementation 'com.google.android.gms:play-services-ads:25.5.0'
+    playImplementation 'com.google.android.ump:user-messaging-platform:4.0.0'
     implementation 'androidx.lifecycle:lifecycle-process:2.9.4'
 }
