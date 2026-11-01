@@ -67,6 +67,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_above="@+id/adsView"
+        android:layout_alignWithParentIfMissing="true"
         android:layout_below="@+id/rl1"
         android:layout_weight="0.6"
         >
